@@ -1,3 +1,57 @@
 # https://www.robotstxt.org/robotstxt.html
 User-agent: *
 Disallow:
+
+
+address: [
+        {
+          id: 1,
+          country: 'india',
+          state: 'andhra pradesh',
+          district: 'krishna',
+          city: 'gudiwada',
+          village: 'koduru',
+          street: 'oc colony',
+          pincode: 521325,
+        },
+      ],
+      userbankdetails: [
+        {
+          id: 1,
+          bankname: 'IDBI',
+          branch: 'gudiwada',
+          accountno: 416338978501,
+          ifsc: 'IDBI007',
+          cardno: 568974563210,
+        },
+      ],
+    },
+    {
+      id: 2,
+      username: 'Manisha',
+      email: 'manisha@gmail.com',
+      phonenumber: 8184886707,
+      password: 'manisha@000',
+      address: [
+        {
+          id: 1,
+          country: 'india',
+          state: 'andhra pradesh',
+          district: 'krishna',
+          city: 'gudiwada',
+          village: 'koduru',
+          street: 'oc colony',
+          pincode: 521325,
+        },
+      ],
+      userbankdetails: [
+        {
+          id: 1,
+          bankname: 'IDBI',
+          branch: 'gudiwada',
+          accountno: 416338978501,
+          ifsc: 'IDBI007',
+          cardno: 568974563210,
+        },
+      ],
+    },

@@ -1,0 +1,30 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    height: 150px;
+    background-image: linear-gradient(to top, #00102a, #000e2a, #010c29, #010929, #020628);    align-items: center;
+    border-top: 1px solid gray;
+    color: #fff;
+
+}
+
+
+.footer_right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 4px;
+    cursor: pointer;
+}
+
+
+.copyright{
+    height: 30px;
+    background-color: rgb(248, 245, 245);
+    color: #00062d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+}

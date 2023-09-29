@@ -1,0 +1,30 @@
+.productcard_container{
+    width: 250px;
+    height: 320px;
+    border-radius: 0px 0px 0px 0px;
+-moz-border-radius: 0px 0px 0px 0px;
+border: 1px solid #f2ebeb;
+}
+
+
+.image_conatiner{
+    height: 220px;
+    width: 100%;
+
+}
+
+.imageproduct{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.content_conatiner{
+    height: 80px;
+    font-size: 12px;
+    padding: 2px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}

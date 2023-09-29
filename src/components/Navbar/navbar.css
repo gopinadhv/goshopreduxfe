@@ -1,0 +1,56 @@
+.navbar{
+    display: flex;
+    height: 80px;
+    border-bottom: 1px solid rgb(234, 232, 232);
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    padding: 0px 20px;
+    background-image: linear-gradient(to top, #00102a, #000e2a, #010c29, #010929, #020628);    top: 0;
+    left: 0;
+    z-index: 9;
+    color: #fff;
+}
+
+.options_conatiner{
+    display: flex;
+    gap: 10px;
+
+}
+
+.logo_conatiner{
+    font-weight: 800;
+    font-size: 36px;
+    cursor: pointer;
+    text-shadow: 1px 10px 30px 5px gray;
+}
+.logo_conatiner:hover{
+    color: yellow;
+}
+
+
+.user_options_conatiner{
+    display: flex;
+    gap:20px;
+    align-items: center;
+    width: max-content;
+}
+
+.option{
+    padding: 6px 10px;
+
+}
+
+.option:hover{
+    padding: 6px 10px;
+    background-color: rgb(235, 243, 4);
+    color: #0a0b17;
+    border-radius: 2px;
+
+}
+
+
+span{
+    cursor: pointer;
+}

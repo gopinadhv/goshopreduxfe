@@ -1,0 +1,122 @@
+.invoice{
+    padding: 10px;
+    border: 0.5px solid rgb(168, 165, 165);
+    margin: 20px;
+
+}
+.date{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.from_and_to_address_conatiner{
+    display: flex;
+    margin: 16px 0px;
+
+}
+.from_address{
+    flex: 1;
+    text-align: left;
+    border: 1px solid rgb(212, 210, 210);
+    font-size: 14px;
+    padding: 4px;
+
+
+}
+.item_text{
+    display: flex;
+    display: flex;
+    text-align: left;
+    gap:6px;
+}
+.item_text :first-child{
+    font-weight: 550;
+    flex: 1;
+
+}
+.item_text :last-child{
+    flex: 2;
+
+}
+
+.to_address{
+    text-align: left;
+    flex: 1;
+    border: 1px solid rgb(212, 210, 210);
+    font-size: 14px;
+    padding: 4px;
+
+}
+h3{
+    color: rgb(14, 14, 169);
+    font-size: 14px;
+    margin-bottom: 6px;
+}
+
+/*---------------------*/
+.items_description_conatiner{
+    color: rgb(103, 102, 102);
+}
+
+.MuiTable-root{
+    border: 0.5px solid rgb(55, 53, 53);
+    margin-top: 20px;
+
+}
+
+.MuiTable-root th{
+    font-weight: 700;
+    background-color: rgb(184, 221, 247);
+    font-size: 12px;
+}
+
+.MuiTable-root tbody{
+    border: 1px solid rgb(11, 1, 1);
+    
+}
+
+
+
+.total_amount{
+    display: flex;
+    justify-content: flex-end;
+    border: 0.5px solid rgb(11, 1, 1);
+    font-size: 22px;
+    gap: 4px;
+    font-weight: 500;
+    height: 40px;
+    align-items: center;
+    padding: 0px  4px;
+}
+.total_amount:first-child{
+    color: rgb(1, 28, 37);
+}
+
+.total_amount_conatiner{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 22px;
+    gap: 4px;
+    font-weight: 500;
+    height: 40px;
+    align-items: center;
+    border-top: 0.5px solid rgb(11, 1, 1);
+
+
+}
+
+.word_converter{
+    text-align: left;
+    font-size: 16px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+    margin-top: 6px;
+    margin-bottom: 100px;
+}
+.word_converter span {
+    font-weight: 600;
+}

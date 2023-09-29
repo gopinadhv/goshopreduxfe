@@ -1,0 +1,16 @@
+.auth_conatiner{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: aliceblue;
+}
+
+
+.inputs_conatiner{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 1px solid rgb(99, 101, 101);
+    padding: 50px  20px;
+}
